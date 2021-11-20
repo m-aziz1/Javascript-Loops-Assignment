@@ -1,0 +1,37 @@
+html {
+  background-image: url("images/background.png");
+}
+
+body {
+  background-color: rgba(240, 239, 239, 0.75);
+  margin: 25px auto;
+  text-align: center;
+  width: 650px;
+  height: 600px;
+  padding: 40px 50px;
+  border-radius: 25px;
+}
+
+button {
+  padding: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(109, 105, 101);
+}
+
+.html-console {
+  margin: 15px;
+  border: grey solid 5px;
+  background-color: black;
+  color: white;
+  height: 500px;
+}
+
+.html-console p {
+  text-align: left;
+  margin-left: 15px;
+}
